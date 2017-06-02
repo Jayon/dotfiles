@@ -1,0 +1,20 @@
+###
+### Git credentials
+###
+
+GIT_AUTHOR_NAME="Jayon"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="jayon.xu@gmail.com"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
+GH_USER="Jayon"
+git config --global github.user "$GH_USER"
+
+git config --global sendemail.smtpuser "$GIT_AUTHOR_EMAIL"
+###
+### Gmail credentials for mutt
+###
+export GMAIL=jayon.xu@gmail.com
+export GMAIL_NAME="Jayon"
+export GMAIL_FROM=jayon.xu@gmail.com

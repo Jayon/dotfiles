@@ -13,7 +13,7 @@ Session.vim
 .netrwhist
 *~
 
-.extra
+#.extra
 .gnupg
 !.gnupg/gpg*.conf
 .i3/logfile
